@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in Touch: Enquire About the Event</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home_page.html">Home</a></li>
+                <li><a href="program_event.html">Program Events</a></li>
+                <li><a href="general_information.html">General Information</a></li>
+                <li><a href="participation_information.html">Participation Information</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Get in Touch: Enquire About the Event</h1>
+        <img src="pic/inquiry.jpg" alt="Inquiry Form">
+        <form id="registration-form">
+            <label for="event">Event:</label>
+            <select id="myListBox" name="Event">
+                <option value="Option 1">5K Run/Walk</option>
+            </select>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <div class="checkbox-container">
+                <label for="checkbox1">Registration fees</label>
+                <input type="checkbox" id="checkbox1" name="myCheckboxes">    
+            </div>
+
+            <div class="checkbox-container">
+                <label for="checkbox1">Rules & Guidelines</label>
+                <input type="checkbox" id="checkbox1" name="myCheckboxes">
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Send Enquiry">
+        </form>
+        <div id="output"></div>
+        
+    </main>
+        <script src="js/java.js"></script>
+    <footer>
+        <p>&copy; 2024 Charity Run 2024</p>
+    </footer>
+</body>
+</html>
